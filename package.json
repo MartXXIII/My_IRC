@@ -1,0 +1,9 @@
+{
+     "name": "Mulitroom chat",
+     "description": "Multiroom chat",
+     "version": "0.0.1",
+     "dependencies": {
+        "express": "",
+        "socket.io": ""
+     }
+}

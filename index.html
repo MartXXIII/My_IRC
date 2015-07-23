@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Multiroom chat</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">Rooms</a>
+            </li>
+            <li>
+                <div id="rooms" style="color:white;"></div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2>Node.js & Socket.io</h2>
+                    </div>
+                    <div id="conversation" style="color:#000"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="footer">
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <input type="text" id="data" class="form-control" placeholder="Chat">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id="datasend" type="button">Go!</button>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
